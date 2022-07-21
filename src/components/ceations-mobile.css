@@ -1,0 +1,91 @@
+.creation-mobile {
+
+    padding: 0 20px;
+
+}
+
+.creation-mobile h2 {
+
+
+    text-align: center;
+    padding-bottom: 30px;
+
+
+}
+
+.creation-mobile section {
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+}
+
+.creation-mobile section .gellary {
+
+    position: relative;
+
+}
+
+.creation-mobile section .gellary .image-container {
+
+    filter: brightness(70%);
+
+
+
+
+}
+
+.creation-mobile section .gellary .image-container:hover {
+
+
+    opacity: 0.4;
+
+}
+
+.creation-mobile section .gellary h1 {
+
+    position: absolute;
+    bottom: 36px;
+    left: 35px;
+    color: #E5E8D8;
+    font-size: 25px;
+    font-family: inherit;
+    width: 119px;
+}
+
+.creation-mobile .btn-wraper {
+
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.creation-mobile .btn-wraper .btn {
+
+
+    padding: 7px 30px;
+    background-color: transparent;
+    letter-spacing: 0.2rem;
+    border: 1px solid #000;
+    cursor: pointer;
+
+}
+
+.creation-mobile .btn-wraper .btn:hover {
+
+
+    background: #000;
+    color: #fff;
+
+}
+
+@media (min-width: 999px) {
+
+
+    .creation-mobile {
+
+        display: none;
+    }
+}

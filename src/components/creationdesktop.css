@@ -1,0 +1,86 @@
+.creation-desktop {
+
+    display: none;
+}
+
+
+@media (min-width:992px) {
+
+    .creation-desktop {
+
+        display: block;
+        padding: 20px;
+        margin-top: 60px;
+
+    }
+
+    .creation-desktop .title {
+
+
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 84%;
+    }
+
+    .creation-desktop .title .btn {
+
+
+        padding: 7px 30px;
+        background-color: transparent;
+        letter-spacing: 0.2rem;
+        border: 1px solid #000;
+        cursor: pointer;
+
+    }
+
+    .creation-desktop .title .btn:hover {
+
+        background: #000;
+        color: #fff;
+
+    }
+
+    .creation-desktop section {
+
+
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        gap: 1rem;
+        justify-content: center;
+
+    }
+
+
+    .creation-desktop section .gellary {
+
+        position: relative;
+
+
+    }
+
+    .creation-desktop section .gellary .image-container {
+
+        filter: brightness(70%);
+    }
+
+    .creation-desktop section .gellary .image-container:hover {
+
+
+        opacity: 0.4;
+
+    }
+
+    .creation-desktop section .gellary h1 {
+
+        position: absolute;
+        bottom: 25px;
+        left: 30px;
+        color: #E5E8D8;
+        font-size: 20px;
+        font-family: inherit;
+        width: 119px;
+    }
+
+}
