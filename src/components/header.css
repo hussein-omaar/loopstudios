@@ -14,6 +14,7 @@
 
 
   width: 150px;
+  
  }
 
 .hamburger-menue {
@@ -25,6 +26,8 @@
   transition: 0.4s;
 
 }
+
+
 
 .hamburger-menue .line {
 
@@ -61,8 +64,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 50px 150px 50px;
 
+  padding: 13px 177px 751px 14px;
 }
 
 .nav-menue#display {
