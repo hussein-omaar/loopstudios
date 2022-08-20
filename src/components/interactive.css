@@ -3,7 +3,6 @@
     margin-top: 50px;
     margin-bottom: 100px;
     max-width: 100vw;
-    height: 700px;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -30,7 +29,6 @@
 
     max-width: 85%;
     text-align: center;
-    height: 300px;
     width: 400px;
 
 
@@ -48,6 +46,8 @@
     max-width: 100%;
     margin: auto;
     font-size: 18px;
+    color: #8C8C8C;
+
 
 
 }
@@ -86,5 +86,23 @@
         max-width: 80%;
 
     }
+
+}
+
+
+@media (min-width: 280px) {
+
+    .interactive .content h1 {
+
+
+        font-size: 23px;
+    }
+
+    .interactive .content p {
+
+
+        font-size: 16px;
+    }
+
 
 }

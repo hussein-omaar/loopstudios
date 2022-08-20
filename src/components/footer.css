@@ -106,4 +106,10 @@
 
         flex-direction: row;
     }
+    .footer .left .menue ul li button:hover {
+
+        border-bottom: 1px solid #fff;
+    
+    
+      }
 }

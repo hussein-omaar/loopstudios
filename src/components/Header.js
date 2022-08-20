@@ -4,7 +4,7 @@ import logo from "../images/logo.svg";
 
 import "../components/header.css";
 
-function Header() {
+function Header() { 
   const [toggle, setToggle] = useState(true);
 
   const [rotate, setRotate] = useState(false);
