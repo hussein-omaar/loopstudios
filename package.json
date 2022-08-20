@@ -1,6 +1,6 @@
 {
-  "homepage": "https://hussein-omaar.github.io/loopstudio_landing_page",
-  "name": "loopstudio_landing_page",
+  "homepage": "https://hussein-omaar.github.io/loopstudio-landing-page",
+  "name": "loopstudio-landing-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
