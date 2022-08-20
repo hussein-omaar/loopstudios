@@ -1,7 +1,7 @@
 {
-  "name": "loopstudios",
-  "version": "0.1.0",
   "homepage": "https://hussein-omaar.github.io/loopstudio_landing_page",
+  "name": "loopstudio_landing_page",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
