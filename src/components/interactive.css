@@ -89,6 +89,16 @@
 
 }
 
+@media (width: 1024px){
+
+
+    .interactive .content {
+
+        width: 31%;
+        bottom: -42px;
+    }
+}
+
 
 @media (min-width: 280px) {
 
